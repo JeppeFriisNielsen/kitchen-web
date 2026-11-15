@@ -1,6 +1,6 @@
 // Service worker: lets the app open without signal (e.g. in the shop).
 // Bump the version when you change the app files so phones pick up the update.
-const CACHE = 'kitchen-v1';
+const CACHE = 'kitchen-v3';
 const SHELL = ['./', 'index.html', 'app.js', 'styles.css', 'config.js', 'vendor/supabase.js',
   'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 

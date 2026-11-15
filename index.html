@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -7,8 +7,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="Kitchen">
-  <title>Kitchen</title>
+  <meta name="apple-mobile-web-app-title" content="Køkken">
+  <title>Køkken</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icons/icon-192.png">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -16,22 +16,20 @@
 </head>
 <body>
   <header id="top">
-    <h1 id="title">Kitchen</h1>
-    <button id="sync" class="sync" type="button" aria-label="Sync status"></button>
+    <h1 id="title">Køkken</h1>
+    <button id="sync" class="sync" type="button" aria-label="Synkronisering"></button>
     <button id="menu" class="icon" type="button" aria-label="Menu">⋯</button>
   </header>
   <main id="view"></main>
   <nav id="tabs">
-    <button data-tab="shopping"><span>🛒</span>List</button>
-    <button data-tab="kitchen"><span>🥫</span>Kitchen</button>
+    <button data-tab="shopping"><span>🛒</span>Liste</button>
+    <button data-tab="kitchen"><span>🥫</span>Køkken</button>
+    <button data-tab="soon"><span>♻️</span>Brug snart<b class="badge" style="display:none"></b></button>
     <button data-tab="plan"><span>📅</span>Plan</button>
-    <button data-tab="recipes"><span>📖</span>Recipes</button>
+    <button data-tab="recipes"><span>📖</span>Opskrifter</button>
   </nav>
   <div id="toast" role="status" aria-live="polite"></div>
   <datalist id="dl-names"></datalist>
-  <datalist id="dl-units"></datalist>
-  <datalist id="dl-locations"></datalist>
-  <datalist id="dl-categories"></datalist>
 
   <script src="config.js"></script>
   <script src="vendor/supabase.js"></script>

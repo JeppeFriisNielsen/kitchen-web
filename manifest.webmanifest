@@ -1,7 +1,8 @@
 {
-  "name": "Kitchen",
-  "short_name": "Kitchen",
-  "description": "Kitchen inventory, meal plan and shopping list",
+  "lang": "da",
+  "name": "Køkken",
+  "short_name": "Køkken",
+  "description": "Køkkenbeholdning, madplan og indkøbsliste",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
